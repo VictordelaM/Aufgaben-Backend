@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo{
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+.navElement{
+    color: rgba(34, 34, 34, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.navElement:hover{
+    color: #DAA520;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.sign{
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #3E3F43;
+    padding: 1%;
+    background: #F9BDBD;
+}
+
+.sign:hover{
+    color: #ece80f;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #3E3F43;
+    padding: 1%;
+    background-color: green;
+}
