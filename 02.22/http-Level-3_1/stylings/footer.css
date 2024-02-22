@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    margin: 10vh 0 5vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 5vw;
+}
+
+.newsletterText p:nth-child(1){
+    color: #000;
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.newsletterText p:nth-child(2){
+    color: #000;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+}
+
+form input:nth-of-type(1){
+    fill: #FFF;
+    border: 2px solid #DAA520;
+    color: #AFAFAF;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+form input:nth-of-type(2){
+    color: #FFF;
+text-align: center;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background-color: #DAA520;
+border: #DAA520;
+}
+
+.footerLinkBox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75vw;
+}
+
+.footerBox{
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+}
+
+.footerTop{
+    text-decoration: none;
+    color: #333;
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.footerDown{
+    color: #8D8D8D;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.logo{
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
