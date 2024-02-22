@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    gap: 2%;
+    padding: 5%;
+}
+
+.image{
+    border-radius: 20% 0;
+}
+
+.reviewBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.review{
+    border: 1px solid #A8DCEC;;
+    height: 90%;
+    border-radius: 0 50px;
+    margin-bottom: 2.5%;
+}
+
+.navigate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre {
+    display: flex;
+    gap: 15%;
+    color: #C4C4C4;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.next{
+    display: flex;
+    gap: 15%;
+    color: #3E3F43;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+}
+
+.pages{
+    display: flex;
+    gap: 2.5%;
+    align-self: flex-end;
+}
+
+.yellowPage{
+    border-radius: 8px;
+background: #DAA520;
+width: 40px;
+height: 8px;
+}
+
+.greyPage{
+    border-radius: 8px;
+background: #E5E5E5;
+width: 40px;
+height: 8px;
+}
