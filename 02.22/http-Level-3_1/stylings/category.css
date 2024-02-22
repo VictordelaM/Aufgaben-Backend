@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gridBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.itemBox{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.itemBox p {
+    color: #3E3F43;
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.itemBox a{
+    text-align: center;
+    color: #3E3F43;
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+border:1px solid #3E3F43;
+width: 10vw;
+align-self: flex-end;
+padding: 2.5% 0;
+    border-radius: 0 10% ;
+}
+
+#desk, #shelf{
+    background-color: #F9BDBD;
+    border-radius: 0 10% ;
+
+}
+
+#chair, #radio{
+    background-color: #F7DEA6;
+    border-radius: 0 10% ;
+}
+
+#bowls{
+    background-color:#A8DCEC ;
+    border-radius: 0 10% ;
+}
