@@ -5,8 +5,9 @@
 }
 
 body{
-    background-color: #DAA520;
-    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.00) 100%); */
+    /* background-color: #DAA520; */
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.704) 0%, rgba(255, 255, 255, 0.951) 100%); */
+    background-image: url('../assets/background.png');
     display: flex;
     justify-content: center;
     align-items: center;
