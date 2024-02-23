@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -15,7 +20,7 @@ main{
 
 .titleLogo{
     color: #3E3F43;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -33,7 +38,7 @@ line-height: normal;
     /* align-self: center; */
     color: rgba(34, 34, 34, 0.10);
 text-align: right;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 72px;
 font-style: normal;
 font-weight: 800;

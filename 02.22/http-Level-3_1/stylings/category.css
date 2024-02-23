@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +32,7 @@
 
 .itemBox p {
     color: #3E3F43;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 24px;
 font-style: normal;
 font-weight: 800;
@@ -37,7 +42,7 @@ line-height: normal;
 .itemBox a{
     text-align: center;
     color: #3E3F43;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 18px;
 font-style: normal;
 font-weight: 600;

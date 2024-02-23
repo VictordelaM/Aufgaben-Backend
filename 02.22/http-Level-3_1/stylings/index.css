@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -42,7 +47,7 @@ main{
 
 .leftBox h2{
     color: #3E3F43;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
@@ -51,7 +56,7 @@ line-height: normal;
 
 .leftBox h2 span {
     color: #3E3F43;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -60,7 +65,7 @@ line-height: normal;
 
 .leftBox h1{
     color: #313235;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 72px;
     font-style: normal;
     font-weight: 700;
@@ -69,7 +74,7 @@ line-height: normal;
 
 .leftBox button{
     color: #FFF;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 16px;
 font-style: normal;
 font-weight: 700;

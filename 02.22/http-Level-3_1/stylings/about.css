@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +24,7 @@ main{
 
 .textBox p:nth-of-type(1){
     color: #3E3F43;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 36px;
 font-style: normal;
 font-weight: 800;
@@ -28,7 +33,7 @@ line-height: normal;
 
 .textBox p:nth-of-type(1) span{
     color: #3E3F43;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -37,7 +42,7 @@ line-height: normal;
 
 .textBox p:nth-of-type(2){
     color: #000;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;

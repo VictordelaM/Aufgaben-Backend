@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +27,7 @@
     left: -40%;
     color: rgba(249, 189, 189, 0.322);
 text-align: center;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 96px;
 font-style: normal;
 font-weight: 600;
@@ -32,7 +37,7 @@ line-height: normal;
 .step{
     color: #000;
 text-align: center;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -42,7 +47,7 @@ line-height: normal;
 button{
     color: #FFF;
 text-align: center;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 16px;
 font-style: normal;
 font-weight: 700;

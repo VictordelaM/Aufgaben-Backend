@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +29,36 @@
     height: 90%;
     border-radius: 0 50px;
     margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 5%;
+}
+
+.textReview{
+    color: #3E3F43;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile img{
+    border-radius: 100%;
+}
+
+.profile p{
+    color: #AFAFAF;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .navigate{

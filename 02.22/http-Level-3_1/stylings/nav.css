@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +18,7 @@ nav{
 
 #logo{
     color: #3E3F43;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -24,7 +29,7 @@ nav{
 
 .navElement{
     color: rgba(34, 34, 34, 0.75);
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -34,14 +39,14 @@ nav{
 
 .navElement:hover{
     color: #DAA520;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 16px;
     font-weight: 800;
 }
 
 .sign{
     color: #3E3F43;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
@@ -53,7 +58,7 @@ nav{
 
 .sign:hover{
     color: #ece80f;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
